@@ -25,7 +25,7 @@ winget install --id Git.Git -e --source winget
 2-Install Python.3.11
 
 ```bash
-wget -e --id Python.Python.3.11
+winget -e --id Python.Python.3.11
 ```
 
 
