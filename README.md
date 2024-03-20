@@ -16,11 +16,16 @@ Save time: You can use the time you spend on installations for more productive w
 
   
 ## Install
+To install git if git is not installed on Windows
 
-Install my-project using wget
+```bash
+winget install --id Git.Git -e --source winget
+```
+
+Install my-project using git
 
 ```bash 
-wget  https://github.com/MirlexY/Mirlex-Installer.git
+git clone  https://github.com/MirlexY/Mirlex-Installer.git
 ```
 
 Install my-project manualy
