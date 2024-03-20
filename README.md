@@ -16,21 +16,23 @@ Save time: You can use the time you spend on installations for more productive w
 
   
 ## Install
-To install git if git is not installed on Windows
+1-To install git if git is not installed on Windows
 
 ```bash
 winget install --id Git.Git -e --source winget
 ```
 
-Install my-project using git
+2-Install Python.3.11
 
-```bash 
-git clone  https://github.com/MirlexY/Mirlex-Installer.git
+```bash
+wget -e --id Python.Python.3.11
 ```
 
-Install my-project manualy
 
-```bash 
-Click on the code button
-    Download ZIP
-        Unzip it and start using it
+3-Install my-project using git
+
+```bash
+git clone  https://github.com/MirlexY/Mirlex-Installer.git
+cd Mirlex-Installer
+python Mirlex-Installer.py
+```
