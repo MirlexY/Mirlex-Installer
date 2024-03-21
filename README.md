@@ -10,7 +10,7 @@ Save time: You can use the time you spend on installations for more productive w
 
 
 
-## Screen Shot
+## Screenshot
 
 ![](https://i.hizliresim.com/oy6kdlh.png)
 
